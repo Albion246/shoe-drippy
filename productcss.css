@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nike {
+    height: 100vh;
+    width: 100%;
+    background-image: url(nikebg.webp);
+    background-position: center;
+    background-size: cover;
+    padding-right: 67.01%;
+    padding-left: 0%;
+    box-sizing: border-box;
+    position: relative;
+}
+.adidas {
+    height: 100vh;
+    width: 100%;
+    background-image: url(adidasbg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 67.01%;
+    padding-left: 0%;
+    box-sizing: border-box;
+    position: relative;
+}
+.puma {
+    height: 100vh;
+    width: 100%;
+    background-image: url(pumabg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 67.01%;
+    padding-left: 0%;
+    box-sizing: border-box;
+    position: relative;
+}
+.newbalance {
+    height: 100vh;
+    width: 100%;
+    background-image: url(nbbg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 67.01%;
+    padding-left: 0%;
+    box-sizing: border-box;
+    position: relative;
+}
+#sapatos {
+    height: 100vh;
+    width: 100%;
+    background-image: url(white.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 67.01%;
+    padding-left: 0%;
+    box-sizing: border-box;
+    position: relative;
+}
+#picture{
+    position:absolute;
+    width: 50%;
+    height: 100%;
+    bottom: 0;
+    margin-bottom: 50px;
+    margin-left: 600px;
+}
+#picture1{
+    position:absolute;
+    width: 40%;
+    height: 50%;
+    bottom: 0;
+    margin-bottom: 150px;
+    margin-left: 700px;
+}
+#picture2{
+    position:absolute;
+    width: 50%;
+    height: 80%;
+    bottom: 0;
+    margin-bottom: 150px;
+    margin-left: 600px;
+}
+#picture3{
+    position:absolute;
+    width: 40%;
+    height: 70%;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-left: 700px;
+}
+#picture4{
+    position:absolute;
+    width: 45%;
+    height: 60%;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-left: 650px;
+}
+#picture5{
+    position:absolute;
+    width: 40%;
+    height: 50%;
+    bottom: 0;
+    margin-bottom: 150px;
+    margin-left: 700px;
+}
+#picture6{
+    position:absolute;
+    width: 40%;
+    height: 40%;
+    bottom: 0;
+    margin-bottom: 150px;
+    margin-left: 700px;
+}
+
+.navbar {
+    width: 303%;
+    height: 10vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+}
+.logo {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+nav {
+    flex: 1;
+    padding-left: 600px;
+}
+nav ul li {
+    display:inline-block ;
+    list-style: none;
+    margin:10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: orange;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+nav ul li a:hover {
+    color:#87CEEB;
+}
+a .cart {
+    font-size: 60px;
+    color: #1b1b1b;
+}
+a .cart:hover{
+    transform: scale(1.1);
+    color: rgb(111,167,29);
+    transition: all .5s;
+}
+.content {
+    position: relative;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-left: 35px;
+    letter-spacing: .1em;
+    font-size: 70px;
+    color: #1b1b1b;
+}
+h1 .style {
+    color: white;
+    font-size: 80px;
+    font-weight: 800;
+    margin-left: 35px;
+    font-family: 'Lobster', cursive;
+}
+h3 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 35px;
+    margin-left: 35px;
+    color: #FFFFFF;
+    text-align: left;
+}
+h3 .loob {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 35px;
+    margin-left: 35px;
+    color: #1b1b1b;
+    text-align: left;
+}
+.text {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.btn {
+    background-color: orange;
+    margin-top: 80px;
+    padding: 15px 45px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: .5s;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    display: block;
+    border-radius: 30px;
+    background-size: 200% auto;
+    box-shadow: 3px 8px 22px rgba(22,21,21,.15);
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.social-media {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 80px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 27px;
+ }
+ .icons {
+    color: black;
+    padding: 12px 12px 10px 12px;
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 27px;
+    text-align: center;
+    height: 27px;
+    background-color: #fff;
+    box-shadow: 3px 8px 22px rgba(22, 21, 21, 0.15);
+ }
+ .icons:hover {
+    transform: scale(1.1);
+    color: #fff;
+    background-color: greenyellow;
+    transition: all .5s;
+ }
